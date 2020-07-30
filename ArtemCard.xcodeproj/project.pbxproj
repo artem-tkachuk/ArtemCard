@@ -13,6 +13,8 @@
 		BFA5229724D2475F0027FE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA5229624D2475F0027FE43 /* Assets.xcassets */; };
 		BFA5229A24D2475F0027FE43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA5229924D2475F0027FE43 /* Preview Assets.xcassets */; };
 		BFA5229D24D2475F0027FE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA5229B24D2475F0027FE43 /* LaunchScreen.storyboard */; };
+		BFA522A624D24DAA0027FE43 /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFA522A524D24DAA0027FE43 /* Orbitron-Regular.ttf */; };
+		BFB74A3A24D294C400357662 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB74A3924D294C400357662 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BFA5229924D2475F0027FE43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA5229C24D2475F0027FE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA5229E24D2475F0027FE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA522A524D24DAA0027FE43 /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Regular.ttf"; sourceTree = "<group>"; };
+		BFB74A3924D294C400357662 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,10 @@
 		BFA5228F24D2475F0027FE43 /* ArtemCard */ = {
 			isa = PBXGroup;
 			children = (
+				BFA522A424D24D760027FE43 /* Fonts */,
 				BFA5229024D2475F0027FE43 /* AppDelegate.swift */,
 				BFA5229224D2475F0027FE43 /* SceneDelegate.swift */,
-				BFA5229424D2475F0027FE43 /* ContentView.swift */,
+				BFB74A3B24D295CC00357662 /* Views */,
 				BFA5229624D2475F0027FE43 /* Assets.xcassets */,
 				BFA5229B24D2475F0027FE43 /* LaunchScreen.storyboard */,
 				BFA5229E24D2475F0027FE43 /* Info.plist */,
@@ -73,6 +78,23 @@
 				BFA5229924D2475F0027FE43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA522A424D24D760027FE43 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BFA522A524D24DAA0027FE43 /* Orbitron-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BFB74A3B24D295CC00357662 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5229424D2475F0027FE43 /* ContentView.swift */,
+				BFB74A3924D294C400357662 /* InfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +157,7 @@
 			files = (
 				BFA5229D24D2475F0027FE43 /* LaunchScreen.storyboard in Resources */,
 				BFA5229A24D2475F0027FE43 /* Preview Assets.xcassets in Resources */,
+				BFA522A624D24DAA0027FE43 /* Orbitron-Regular.ttf in Resources */,
 				BFA5229724D2475F0027FE43 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB74A3A24D294C400357662 /* InfoView.swift in Sources */,
 				BFA5229124D2475F0027FE43 /* AppDelegate.swift in Sources */,
 				BFA5229324D2475F0027FE43 /* SceneDelegate.swift in Sources */,
 				BFA5229524D2475F0027FE43 /* ContentView.swift in Sources */,
